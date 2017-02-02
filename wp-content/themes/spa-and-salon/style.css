@@ -542,14 +542,14 @@ a:active {
 .main-navigation ul{
 	font-size: 18px;
 	line-height: 20px;
-	text-align: center;
+	//text-align: center;
 	margin: 0;
 	padding: 0;
 }
 
 .main-navigation ul li{
 	display: inline-block;
-	margin: 0 29px;
+	margin: 0 10px;
 	position: relative;
 }
 
@@ -961,7 +961,7 @@ object {
 	margin: 0;
 	padding: 0;
 	list-style: none;
-	float: left;
+	float: right;
 	width: 20%;
 }
 
@@ -977,7 +977,7 @@ object {
 
 .header-t .tel-link{
 	float: right;
-	font-size: 24px;
+	font-size: 18px;
 }
 
 .header-t .tel-link .fa{
@@ -1369,7 +1369,7 @@ object {
 /*inner page style*/
 .inner .site-header{
 	position: relative;
-	background: #fdfdfd;
+	//background: #fdfdfd;
 }
 
 .breadcrumbs{background: #ac5da6;}
@@ -1617,6 +1617,47 @@ object {
 	font: 48px/56px 'Marcellus', serif;
 	margin: 0 0 25px;
 	color: #72466a;
+	text-align: center;
+}
+
+#primary .page .entry-header .entry-title:before,
+#primary .page .entry-header .entry-title:after {
+  content: '';
+
+  /* делаем линию строчно-блочной */
+  display: inline-block;
+
+  /* выравниваем вертикально по середине */
+  vertical-align: middle;
+
+  /* не позволяем ширине превысить 100% (будет добавлен бордюр) */
+  box-sizing: border-box;
+
+  /* установка ширины в 100% делает линию равной ширине тега заголовка
+  ** благодаря этому линия заполнит все свободное пространство
+  ** слева и справа от текста
+  */
+  width: 50%;
+  height: 3px;
+  background: #000;
+
+  /* добавляем к линии левый и правый бордюр цветом основного фона заголовка
+  ** благодаря этому создается нужный отступ между линиями и текстом
+  */
+  border: solid #FFF;
+  border-width: 0 65px;
+}
+#primary .page .entry-header .entry-title:before {
+  /* смещаем левую линию влево отрицательным отступом, равным 100% ширины
+  ** благодаря этому линия встает слева от текста
+  */
+  margin-left: -100%;
+}
+#primary .page .entry-header .entry-title:after {
+  /* смещаем правую линию вправо отрицательным отступом, равным 100% ширины
+  ** благодаря этому линия встает справа от текста
+  */
+  margin-right: -100%;
 }
 
 .full-width #primary{width: 100%;}

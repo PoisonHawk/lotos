@@ -37,10 +37,11 @@
 				 	
 				 	 if( $spa_and_salon_ph ){ ?>
       					<a href="tel:<?php echo esc_attr( $spa_and_salon_ph ); ?>" class="tel-link">
-      						<span class="fa fa-phone"></span>
+      						<!--<span class="fa fa-phone"></span>-->
       						<?php echo esc_html( $spa_and_salon_ph ); ?></a>
+							<p style='font-style: uppercase: flaot:right'>Рязань,ул.Нижне-трубежная,д.2</p>
      			<?php } ?>
-				
+					
 
 			</div>
 			<div class="header-b">
