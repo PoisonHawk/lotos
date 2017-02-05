@@ -48,8 +48,14 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 /*--------------------------------------------------------------
 # Normalize
 --------------------------------------------------------------*/
+@font-face {
+	font-family: ClutchSans; /* Имя шрифта */
+	src: url('/wp-content/themes/spa-and-salon/fonts/ClutchSansFree/clutchsans-regular.otf'); /* Путь к файлу со шрифтом */
+}
+
+
 html {
-	font-family: 'PT Serif', serif;
+	font-family: 'ClutchSans', 'PT Serif', serif;
 	-webkit-text-size-adjust: 100%;
 	-ms-text-size-adjust:     100%;
 }
@@ -512,16 +518,16 @@ textarea {
 ## Links
 --------------------------------------------------------------*/
 a {
-	color: #7fa200;
+	color: #9a938b;
 }
 
 a:visited {
-	color: #7fa200;
+	color: #9a938b;
 }
 
 a:hover,
 a:focus {
-	color: #7fa200;
+	color: #9a938b;
 	text-decoration: underline;
 }
 
@@ -537,10 +543,13 @@ a:active {
 /*--------------------------------------------------------------
 ## Menus
 --------------------------------------------------------------*/
-.main-navigation{margin: -48px 0 0;}
+.main-navigation{
+	/*margin: -48px 0 0;*/
+}
 
 .main-navigation ul{
-	font-size: 18px;
+	font-family: 'ClutchSans', sans-serif;
+	font-size: 30px;
 	line-height: 20px;
 	//text-align: center;
 	margin: 0;
@@ -549,20 +558,21 @@ a:active {
 
 .main-navigation ul li{
 	display: inline-block;
-	margin: 0 10px;
+	margin: 0 5px;
 	position: relative;
 }
 
 .main-navigation ul li a{
 	display: block;
-	color: #533537;
+	color: #9a938b;
 	padding-bottom: 25px;
+	text-transform: uppercase;
 }
 
 .main-navigation ul li a:hover,
 .main-navigation ul li a:focus{
 	text-decoration: none;
-	color: #7fa200;
+	color: #090909;
 }
 
 .main-navigation li:hover > a,
@@ -620,7 +630,7 @@ a:active {
 .main-navigation .current-menu-item > a,
 .main-navigation .current_page_ancestor > a,
 .main-navigation .current-menu-ancestor > a {
-	color: #7fa200;
+	color: #090909;
 }
 
 .site-main .comment-navigation,
@@ -953,8 +963,10 @@ object {
 
 .header-t{
 	/*margin: 0 0 -65px;*/
+	font-family: 'ClutchSans';
 	overflow: hidden;
 	min-height: 30px;
+	float:right;
 }
 
 .header-t .social-networks{
@@ -962,7 +974,7 @@ object {
 	padding: 0;
 	list-style: none;
 	float: right;
-	width: 20%;
+	/*width: 20%;*/
 }
 
 .header-t .social-networks li{
@@ -976,8 +988,8 @@ object {
 }
 
 .header-t .tel-link{
-	float: right;
-	font-size: 18px;
+	float: left;
+	font-size: 30px;
 }
 
 .header-t .tel-link .fa{
@@ -990,7 +1002,9 @@ object {
 	color: #666;
 }
 
-.header-b{margin: 28px 0 0;}
+.header-b{margin: 28px 0 0;
+	float:left;
+}
 
 .site-branding{
 	/*width: 180px;*/
@@ -1388,7 +1402,7 @@ object {
 #crumbs a{margin-right: 3px;}
 
 .site-content{
-	padding: 40px 0 80px;
+	padding: 0 0 80px;
 }
 
 .page-header .page-title{
@@ -1613,52 +1627,112 @@ object {
 	margin: 0;
 }
 
-#primary .page .entry-header .entry-title{
-	font: 48px/56px 'Marcellus', serif;
-	margin: 0 0 25px;
-	color: #72466a;
+.entry-header{
+	position: relative;
 	text-align: center;
+}
+
+#primary .page .entry-header .entry-title{
+	font: 36px 'ClutchSans', serif;
+	margin: 0 auto 25px 0;
+	color: #090909;
+	text-align: center;
+	font-weight: bold;
+	background: #fff;
+	position: relative;
+	display: inline-block;
+}
+
+/*#primary .page .entry-header .entry-title:before,*/
+/*#primary .page .entry-header .entry-title:after {*/
+  /*content: '';*/
+
+  /*!* делаем линию строчно-блочной *!*/
+  /*display: inline-block;*/
+
+  /*!* выравниваем вертикально по середине *!*/
+  /*vertical-align: middle;*/
+
+  /*!* не позволяем ширине превысить 100% (будет добавлен бордюр) *!*/
+  /*box-sizing: border-box;*/
+
+  /*!* установка ширины в 100% делает линию равной ширине тега заголовка*/
+  /*** благодаря этому линия заполнит все свободное пространство*/
+  /*** слева и справа от текста*/
+  /**!*/
+  /*width: 50%;*/
+  /*height: 3px;*/
+  /*background: #000;*/
+
+  /*!* добавляем к линии левый и правый бордюр цветом основного фона заголовка*/
+  /*** благодаря этому создается нужный отступ между линиями и текстом*/
+  /**!*/
+  /*border: solid #FFF;*/
+  /*border-width: 0 65px;*/
+/*}*/
+/*#primary .page .entry-header .entry-title:before {*/
+  /*!* смещаем левую линию влево отрицательным отступом, равным 100% ширины*/
+  /*** благодаря этому линия встает слева от текста*/
+  /**!*/
+  /*margin-left: -100%;*/
+/*}*/
+/*#primary .page .entry-header .entry-title:after {*/
+  /*!* смещаем правую линию вправо отрицательным отступом, равным 100% ширины*/
+  /*** благодаря этому линия встает справа от текста*/
+  /**!*/
+  /*margin-right: -100%;*/
+/*}*/
+
+.b-left{
+	font-family: 'ClutchSans';
+	font-size: 22px;
+	width:50%;
+	float:left;
+	position:relative;
+}
+
+.b-right{
+	width:50%; float:right
+}
+
+.header-line{
+	border: 3px solid #000;
+	position: absolute;
+	width: 100%;
+	top: 26px;
 }
 
 #primary .page .entry-header .entry-title:before,
 #primary .page .entry-header .entry-title:after {
-  content: '';
+	/*content: url('/wp-content/themes/spa-and-salon/images/leftlotos.png');*/
 
-  /* делаем линию строчно-блочной */
-  display: inline-block;
+	/* делаем линию строчно-блочной */
+	display: inline-block;
+	/* выравниваем вертикально по середине */
+	vertical-align: middle;
+	width: 80px;
 
-  /* выравниваем вертикально по середине */
-  vertical-align: middle;
-
-  /* не позволяем ширине превысить 100% (будет добавлен бордюр) */
-  box-sizing: border-box;
-
-  /* установка ширины в 100% делает линию равной ширине тега заголовка
-  ** благодаря этому линия заполнит все свободное пространство
-  ** слева и справа от текста
-  */
-  width: 50%;
-  height: 3px;
-  background: #000;
-
-  /* добавляем к линии левый и правый бордюр цветом основного фона заголовка
-  ** благодаря этому создается нужный отступ между линиями и текстом
-  */
-  border: solid #FFF;
-  border-width: 0 65px;
 }
-#primary .page .entry-header .entry-title:before {
-  /* смещаем левую линию влево отрицательным отступом, равным 100% ширины
-  ** благодаря этому линия встает слева от текста
-  */
-  margin-left: -100%;
+
+#primary .page .entry-header .entry-title:before{
+	content: url('/wp-content/themes/spa-and-salon/images/leftlotos.png');
 }
 #primary .page .entry-header .entry-title:after {
-  /* смещаем правую линию вправо отрицательным отступом, равным 100% ширины
-  ** благодаря этому линия встает справа от текста
-  */
-  margin-right: -100%;
+	content: url('/wp-content/themes/spa-and-salon/images/rightlotos.png');
 }
+#primary .page .entry-header .entry-title:before {
+	/* смещаем левую линию влево отрицательным отступом, равным 100% ширины
+    ** благодаря этому линия встает слева от текста
+    */
+	margin-left: -100%;
+}
+#primary .page .entry-header .entry-title:after {
+	/* смещаем правую линию вправо отрицательным отступом, равным 100% ширины
+    ** благодаря этому линия встает справа от текста
+    */
+	margin-right: -100%;
+}
+
 
 .full-width #primary{width: 100%;}
 
@@ -2070,7 +2144,7 @@ object {
 #secondary .widget.widget_spa_and_salon_recent_post .entry-header .entry-meta .posted-on a:before,
 .widget.widget_spa_and_salon_popular_post .entry-header .entry-meta .posted-on a:before,
 #secondary .widget.widget_spa_and_salon_popular_post .entry-header .entry-meta .posted-on a:before{
-	font-family: 'FontAwesome';
+	font-family: 'CutchSans FontAwesome';
 	display: inline-block;
 	vertical-align: top;
 	margin-right: 5px;
@@ -2200,8 +2274,9 @@ object {
 
 /*footer style*/
 .site-footer{
-	background: #3f3c41;
+	/*background: #3f3c41;*/
 	color: #999;
+	padding: 45px 0;
 }
 
 .site-footer a{color: #999;}
@@ -2314,6 +2389,9 @@ object {
 	}
 	.testimonial #slider .flex-direction-nav{top: 65.5%;}
 	.testimonial #slider .holder .text-holder .holder{max-height: 198px;}
+	.b-left, .b-right{
+		width: 100%;
+	}
 }
 
 @media only screen and (max-width: 991px){

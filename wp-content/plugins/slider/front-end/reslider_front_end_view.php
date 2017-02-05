@@ -73,7 +73,8 @@ function reslider_front_end($_id,$_slider,$_reslides) {
 ?>
 </script>
 <div id="slider<?php echo $sliderID ;?>_container"  style="width: <?php echo  $style->width;?>px; height: <?php echo  $style->height;?>px;">
-    <div data-u="loading" class="reslide_loading">
+	<div class="layout-main" style="background: rgba(0,0,0,0.7); width: 100%; height: 100%; position: relative; z-index: 100"></div>
+	<div data-u="loading" class="reslide_loading">
 		<div></div>
     </div>
       <!-- Slides Container --> 

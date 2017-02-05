@@ -10,7 +10,10 @@
  */
 
 ?>
-  <?php 
+  <?php
+
+
+
       if( ! is_page_template( 'template-home.php' ) || ! is_search() ) { echo '</div>'; }
 
       if( !is_page_template( 'template-home.php' ) ) echo '</div></div></div>'; ?><!-- #content -->	
@@ -39,24 +42,28 @@
 					<?php 
                     
                         if( is_active_sidebar( 'footer-one') ) {
+
                         	echo '<div class="col">';
                         	dynamic_sidebar( 'footer-one' ); 
                         	echo '</div>';
                         }
                         
                         if( is_active_sidebar( 'footer-two') ) {
+
                         	echo '<div class="col">';
                         	dynamic_sidebar( 'footer-two' );
                         	echo '</div>';
                         }
                         
                         if( is_active_sidebar( 'footer-three') ) {
+
                         	echo '<div class="col">';
                         	dynamic_sidebar( 'footer-three' );
                         	echo '</div>';
                         }
                         
                         if( is_active_sidebar( 'footer-four' ) ) {
+							
                         	echo '<div class="col">';
                         	dynamic_sidebar( 'footer-four' );
                         	echo '</div>';
@@ -67,8 +74,31 @@
 			</div>
 		</div>
 	<?php } 
-		do_action( 'spa_and_salon_footer' );
+//		do_action( 'spa_and_salon_footer' );
+
 	?>
+		  <style>
+			  .footer-info p{
+				  /*display: inline-block;*/
+				  margin: 0;
+				  font-size:14px;
+				  line-height: 1.3;
+			  }
+		  </style>
+		  <div class="footer-info" style="text-align: center">
+			  	<p><a href="/"><img src="/wp-content/themes/spa-and-salon/images/logo_footer.png" width="50"></a></p>
+				<p>Студия красоты "Лотос"</p>
+			  	<p>Рязань, ул. Нижне-трубежная, д.2</p>
+			  <?php
+			  $spa_and_salon_ph = get_theme_mod( 'spa_and_salon_ph', esc_html__( '01-234566789', 'spa-and-salon' ) );
+			  if( $spa_and_salon_ph ){ ?>
+			  <p>
+				  <a href="tel:<?php echo esc_attr( $spa_and_salon_ph ); ?>" class="tel-link">
+					  <!--<span class="fa fa-phone"></span>-->
+					  <?php echo esc_html( $spa_and_salon_ph ); ?></a>
+			  </p
+			  <?php } ?>
+		  </div>
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 

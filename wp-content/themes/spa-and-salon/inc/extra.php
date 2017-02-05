@@ -441,11 +441,12 @@ function spa_and_salon_featured_cb(){
 function spa_and_salon_footer_credit(){
       
     $text  = '<div class="site-info"><div class="container"><span class="copyright">';
-    $text .= esc_html__( '&copy; ', 'spa-and-salon' ) . date('Y'); 
+    $text .= esc_html__( '&copy; ', 'spa-and-salon' ) . date('Y');
     $text .= ' <a href="' . esc_url( home_url( '/' ) ) . '">' . esc_html( get_bloginfo( 'name' ) ) . '</a>'. esc_html__( '. All Rights Reserved.', 'spa-and-salon' ) . '</span>';
     $text .= '<span class="by">' . sprintf( esc_html__( '%s', 'spa-and-salon' ), '<a href="'. esc_url( __( 'http://raratheme.com/wordpress-themes/spa-and-salon/', 'spa-and-salon' ) ) .'" target="_blank">'. esc_html__( 'Spa And Salon By: Rara Theme. ', 'spa-and-salon' ) .'</a>' );
     $text .= sprintf( esc_html__( 'Powered by: %s', 'spa-and-salon' ), '<a href="'. esc_url( __( 'https://wordpress.org/', 'spa-and-salon' ) ) .'" target="_blank">'. esc_html__( 'WordPress', 'spa-and-salon' ) . '</a>' );
     $text .= '</span></div></div>';
+
     echo apply_filters( 'spa_and_salon_footer_text', $text );    
 }
 add_action( 'spa_and_salon_footer', 'spa_and_salon_footer_credit' );

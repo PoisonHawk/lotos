@@ -1,7 +1,7 @@
 <?php
 /**
  *
- *	Template Name: Мой шаблон страницы
+ *	Template Name: шаблон О нас
  *
  * The template for displaying all pages.
  *
@@ -23,12 +23,7 @@ get_header(); ?>
 			<?php
 			while ( have_posts() ) : the_post();
 
-				get_template_part( 'template-parts/content', 'page' );
-
-				// If comments are open or we have at least one comment, load up the comment template.
-				if ( comments_open() || get_comments_number() ) :
-					comments_template();
-				endif;
+				get_template_part( 'template-parts/content', 'about' );
 
 			endwhile; // End of the loop.
 			?>

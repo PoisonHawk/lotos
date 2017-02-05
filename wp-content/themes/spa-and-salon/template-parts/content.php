@@ -20,7 +20,7 @@
 
 		if ( 'post' === get_post_type() ) : ?>
 		<div class="entry-meta">
-			<?php spa_and_salon_posted_on(); ?>
+<!--			--><?php //spa_and_salon_posted_on(); ?>
 		</div><!-- .entry-meta -->
 		<?php
 		endif; ?>
