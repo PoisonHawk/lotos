@@ -74,7 +74,7 @@
 			</div>
 		</div>
 	<?php } 
-//		do_action( 'spa_and_salon_footer' );
+		//do_action( 'spa_and_salon_footer' );
 
 	?>
 		  <style>
@@ -90,13 +90,14 @@
 				<p>Студия красоты "Лотос"</p>
 			  	<p>Рязань, ул. Нижне-трубежная, д.2</p>
 			  <?php
-			  $spa_and_salon_ph = get_theme_mod( 'spa_and_salon_ph', esc_html__( '01-234566789', 'spa-and-salon' ) );
-			  if( $spa_and_salon_ph ){ ?>
+			  	$spa_and_salon_ph = get_theme_mod( 'spa_and_salon_ph', esc_html__( '01-234566789', 'spa-and-salon' ) );
+			  	if( $spa_and_salon_ph ){
+			  ?>
 			  <p>
 				  <a href="tel:<?php echo esc_attr( $spa_and_salon_ph ); ?>" class="tel-link">
 					  <!--<span class="fa fa-phone"></span>-->
 					  <?php echo esc_html( $spa_and_salon_ph ); ?></a>
-			  </p
+			  </p>
 			  <?php } ?>
 		  </div>
 	</footer><!-- #colophon -->
