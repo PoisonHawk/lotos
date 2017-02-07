@@ -32,16 +32,12 @@ get_header('main');
 		color: #fff;
 	}
 
-	#slider2_container{
-		position: absolute;
-		top:0;
-		/*width: 100vw;*/
-		height:100%;
-		z-index: -100;
-	}
+
 
 	.site{
 		background: none;
+		position: relative;
+		height: 100%;
 	}
 	
 	.site-content{
@@ -50,18 +46,28 @@ get_header('main');
 
 	.wrapper{
 		background: none;
+		height: 88%;
+		/*display: table;*/
+	}
+
+	.container{
+		max-width: 1200px;
+		margin: 0 auto;
+		padding-left: 10px;
+		padding-right: 10px;
+		/*display: table-cell;*/
+		/*vertical-align: middle;*/
 	}
 	
 	.entry-content .add_posts{
-		text-align: center;;
+		text-align: center;
 		list-style: none;
-
 	}
 
 	.entry-content .add_posts_content {
 		display: inline-block;
 		padding: 5px 20px 20px;
-		border: 2px solid #fff;
+		border: 3px solid #fff;
 		margin: 20px;
 		width: 300px;
 	}
@@ -72,11 +78,17 @@ get_header('main');
 
 	.entry-content .add_posts_content h2{
 		 line-height: 0.8 !important;
+		padding-bottom: 30px;
 	 }
 
 	.entry-content .add_posts_content h2 a{
 		text-transform: uppercase;
-		font-size: 20px;
+		font-size: 28px;
+	}
+
+	.entry-content .add_posts_content .post-content p{
+		font-size: 24px;
+		color: rgba(255,255,255,0.9);
 	}
 
 	.entry-content .add_posts_content hr{
@@ -88,9 +100,10 @@ get_header('main');
 	}
 
 	.site-branding{
-		// margin: 200px auto;
+		margin: 200px auto 250px auto;
 		font-size:50px;
-		font-decoration: uppercase;
+		position: inherit;;
+		
 	}
 
 	.header-line{

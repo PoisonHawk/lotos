@@ -362,6 +362,7 @@ html {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
+	height: 100%;
 }
 
 *,
@@ -370,6 +371,7 @@ html {
 	-webkit-box-sizing: inherit;
 	-moz-box-sizing: inherit;
 	box-sizing: inherit;
+
 }
 
 body {
@@ -380,6 +382,7 @@ body {
      overflow-y: scroll;
     -webkit-text-size-adjust:100%;
     -ms-text-size-adjust:none;
+	height: 100%;
 }
 
 blockquote:before,
@@ -948,6 +951,7 @@ object {
 	background: #fff;
 	/*padding-top: 224px;*/
 	/*padding-top: 50px;*/
+	min-height: 69%;
 }
 
 .inner .wrapper{padding-top: 0;}
@@ -1035,7 +1039,7 @@ object {
 	margin: 0;
 }
 
-.site{background: #fff;}
+.site{background: #fff;height: 100%;}
 
 .custom-background-image,
 .custom-background-color{margin: 20px;}
@@ -2423,6 +2427,11 @@ object {
 	.b-right{
 		display: block !important;
 		width: 100% !important;
+
+	/*.contact-info{*/
+		/*float: none !important;*/
+	/*}*/
+
 }
 
 @media only screen and (max-width: 767px){

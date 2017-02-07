@@ -41,7 +41,7 @@ get_header(); ?>
 		width: 100%;
 		height: 100%;
 		/*border-radius: 50%;*/
-		background: rgba(0,0,0,0.5);
+		/*background: rgba(0,0,0,0.5);*/
 	}
 
 	.page-list-ext-image img{
