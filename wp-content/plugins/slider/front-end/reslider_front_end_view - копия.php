@@ -72,9 +72,10 @@ function reslider_front_end($_id,$_slider,$_reslides) {
 	}
 ?>
 </script>
-<div id="slider<?php echo $sliderID ;?>_container"  style="width: <?php echo  $style->width;?>px; height: <?php echo  $style->height;?>px;">
-	<!-- <div class="layout-main" style="background: rgba(0,0,0,0.7); width: 100%; height: 100%; position: relative; z-index: 100"></div> -->
-	<div data-u="loading" class="reslide_loading">
+
+<div id="slider<?php echo $sliderID ;?>_container"  style="width: <?php echo  $style->width;?>px; height: <?php echo  $style->height;?>px; position:relative">
+
+    <div data-u="loading" class="reslide_loading">
 		<div></div>
     </div>
       <!-- Slides Container --> 
@@ -193,8 +194,9 @@ function reslider_front_end($_id,$_slider,$_reslides) {
                 </div>
                 <!-- Thumbnail Item Skin End -->
             </div>		
-	</div>		
-       	<?php require( RESLIDE_PLUGIN_PATH_FRONTEND.'/reslide-front-end.css.php' ) ?>
+	</div>
+	<div class="layout-main" style="background: rgba(0,0,0,0.7); width: 100%; height: 100%; position: fixed; z-index: 100"></div>
+	<?php require( RESLIDE_PLUGIN_PATH_FRONTEND.'/reslide-front-end.css.php' ) ?>
         <script>
 
 		if(reslider<?php echo $sliderID;?>["params"]["rightclickprotection"]) {

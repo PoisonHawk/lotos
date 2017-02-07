@@ -43,11 +43,15 @@ get_header('main');
 	.site{
 		background: none;
 	}
+	
+	.site-content{
+		padding: 0;
+	}
 
 	.wrapper{
 		background: none;
 	}
-
+	
 	.entry-content .add_posts{
 		text-align: center;;
 		list-style: none;
@@ -83,14 +87,15 @@ get_header('main');
 		display: none;
 	}
 
-
-
 	.site-branding{
-		margin: 200px auto;
+		// margin: 200px auto;
 		font-size:50px;
 		font-decoration: uppercase;
 	}
 
+	.header-line{
+		display:none;
+	}
 
 </style>
 	<div id="primary" class="content-area">
@@ -134,4 +139,4 @@ get_header('main');
 	</html>
 <?php
 //
-//get_footer();
+get_footer('main');

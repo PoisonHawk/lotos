@@ -22,7 +22,7 @@
 
 <body <?php body_class(); ?> >
 <!--<div class="layout-main" style="background: rgba(0,0,0,0.7); width: 100%; height: 100%; position: fixed; z-index: 100"></div>-->
-<?php echo do_shortcode("[R-slider id='2']"); ?>
+<?php //echo do_shortcode("[R-slider id='2']"); ?>
 <div id="page" class="site">
 	<header id="masthead" class="site-header <?php if( !is_page_template( 'template-home.php' ) ) { echo 'header-inner'; }  ?>" role="banner">
 		<div class="container">
