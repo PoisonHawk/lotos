@@ -217,27 +217,32 @@ function spa_and_salon_social_link_cb(){
 
     $spa_and_salon_button_url_fb = get_theme_mod( 'spa_and_salon_button_url_fb');
     $spa_and_salon_button_url_tw = get_theme_mod( 'spa_and_salon_button_url_tw');
-    $spa_and_salon_button_url_ln = get_theme_mod( 'spa_and_salon_button_url_ln');
+//    $spa_and_salon_button_url_ln = get_theme_mod( 'spa_and_salon_button_url_ln');
+	$spa_and_salon_button_url_vk = get_theme_mod( 'spa_and_salon_button_url_vk');
     $spa_and_salon_button_url_rss = get_theme_mod( 'spa_and_salon_button_url_rss');
     $spa_and_salon_button_url_gp = get_theme_mod( 'spa_and_salon_button_url_gp');
-    $spa_and_salon_button_url_pi = get_theme_mod( 'spa_and_salon_button_url_pi');
+    $spa_and_salon_button_url_ok = get_theme_mod( 'spa_and_salon_button_url_ok');
     $spa_and_salon_button_url_is = get_theme_mod( 'spa_and_salon_button_url_is');
     ?>
     <ul class="social-networks">
-       <?php if( $spa_and_salon_button_url_fb ){?>
-      <li><a href="<?php echo esc_url( $spa_and_salon_button_url_fb ) ?>"><i class="fa fa-facebook"></i></a></li>
+	  <?php if( $spa_and_salon_button_url_vk ){?>
+      <li class="vk"><a href="<?php echo esc_url( $spa_and_salon_button_url_vk ) ?>"><i class="fa fa-vk"></i></a></li>
+	  <?php } if( $spa_and_salon_button_url_is ){?>
+      <li class="insta"><a href="<?php echo esc_url( $spa_and_salon_button_url_is ) ?>"><i class="fa fa-instagram"></i></a></li>
+	  <?php } if( $spa_and_salon_button_url_ok ){?>
+      <li class="ok"><a href="<?php echo esc_url( $spa_and_salon_button_url_ok ) ?>"><i class="fa fa-odnoklassniki-square"></i></a></li>
+	  <?php } if( $spa_and_salon_button_url_fb ){?>
+      <li class="fb"><a href="<?php echo esc_url( $spa_and_salon_button_url_fb ) ?>"><i class="fa fa-facebook"></i></a></li>
       <?php } if( $spa_and_salon_button_url_tw ){?>
-      <li><a href="<?php echo esc_url( $spa_and_salon_button_url_tw ) ?>"><i class="fa fa-twitter"></i></a></li>
+      <li class="tw"><a href="<?php echo esc_url( $spa_and_salon_button_url_tw ) ?>"><i class="fa fa-twitter"></i></a></li>
       <?php } if( $spa_and_salon_button_url_ln ){?>
-      <li><a href="<?php echo esc_url( $spa_and_salon_button_url_ln ) ?>"><i class="fa fa-linkedin"></i></a></li>
+      <li class="ln"><a href="<?php echo esc_url( $spa_and_salon_button_url_ln ) ?>"><i class="fa fa-linkedin"></i></a></li>	  
       <?php } if( $spa_and_salon_button_url_rss ){?>
-      <li><a href="<?php echo esc_url( $spa_and_salon_button_url_rss ) ?>"><i class="fa fa-rss"></i></a></li>
+      <li class="rss"><a href="<?php echo esc_url( $spa_and_salon_button_url_rss ) ?>"><i class="fa fa-rss"></i></a></li>
       <?php } if( $spa_and_salon_button_url_gp ){?>
-      <li><a href="<?php echo esc_url( $spa_and_salon_button_url_gp ) ?>"><i class="fa fa-google-plus"></i></a></li>
-      <?php } if( $spa_and_salon_button_url_pi ){?>
-      <li><a href="<?php echo esc_url( $spa_and_salon_button_url_pi ) ?>"><i class="fa fa-pinterest-p"></i></a></li>
-      <?php } if( $spa_and_salon_button_url_is ){?>
-      <li><a href="<?php echo esc_url( $spa_and_salon_button_url_is ) ?>"><i class="fa fa-instagram"></i></a></li>
+      <li class="g"><a href="<?php echo esc_url( $spa_and_salon_button_url_gp ) ?>"><i class="fa fa-google-plus"></i></a></li>
+      
+      
       <?php } ?>
     </ul>
  <?php } 

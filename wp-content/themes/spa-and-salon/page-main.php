@@ -100,7 +100,7 @@ get_header('main');
 	}
 
 	.site-branding{
-		margin: 200px auto 250px auto;
+		margin: 200px auto;
 		font-size:50px;
 		position: inherit;;
 		
@@ -109,6 +109,20 @@ get_header('main');
 	.header-line{
 		display:none;
 	}
+	
+	.main-navigation ul li a:hover,
+	.main-navigation ul li a:focus{
+		text-decoration: none;
+		/*color: rgba(255,255,255,0.9);*/
+		color: #ccc;
+	}
+	
+	.header-t .tel-link:hover{
+		text-decoration: none;
+		/*color: rgba(255,255,255,0.9);*/
+		color: #ccc;
+	}
+
 
 </style>
 	<div id="primary" class="content-area">

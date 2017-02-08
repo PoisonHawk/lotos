@@ -333,8 +333,8 @@ msgid "Rss Feed Url"
 msgstr "Адрес RSS-ленты"
 
 #: inc/customizer.php:814
-msgid "Linkin Page Url"
-msgstr "Адрес страницы Linkin"
+msgid "VK Page Url"
+msgstr "Адрес страницы VK"
 
 #: inc/customizer.php:797
 msgid "Twitter Page Url"

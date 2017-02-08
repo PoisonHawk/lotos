@@ -799,9 +799,9 @@ function spa_and_salon_customize_register( $wp_customize ) {
             'type' => 'text',
         )
     );
-        /** Linkin Button Url */
+        /** VK Button Url */
     $wp_customize->add_setting(
-        'spa_and_salon_button_url_ln',
+        'spa_and_salon_button_url_vk',
         array( 
             'default' => '',
             'sanitize_callback' => 'spa_and_salon_sanitize_url',
@@ -809,9 +809,9 @@ function spa_and_salon_customize_register( $wp_customize ) {
     );
     
     $wp_customize->add_control(
-        'spa_and_salon_button_url_ln',
+        'spa_and_salon_button_url_vk',
         array(
-            'label' => esc_html__( 'Linkin Page Url', 'spa-and-salon' ),
+            'label' => esc_html__( 'VK Page Url', 'spa-and-salon' ),
             'section' => 'spa_and_salon_social_settings',
             'type' => 'text',
         )
@@ -855,7 +855,7 @@ function spa_and_salon_customize_register( $wp_customize ) {
 
     /**  Pinterest Button Url */
     $wp_customize->add_setting(
-        'spa_and_salon_button_url_pi',
+        'spa_and_salon_button_url_ok',
         array( 
             'default' => '',
             'sanitize_callback' => 'spa_and_salon_sanitize_url',
@@ -863,9 +863,9 @@ function spa_and_salon_customize_register( $wp_customize ) {
     );
     
     $wp_customize->add_control(
-        'spa_and_salon_button_url_pi',
+        'spa_and_salon_button_url_ok',
         array(
-            'label' => esc_html__( 'Pinterest Url', 'spa-and-salon' ),
+            'label' => esc_html__( 'Ok Url', 'spa-and-salon' ),
             'section' => 'spa_and_salon_social_settings',
             'type' => 'text',
         )

@@ -38,7 +38,7 @@
 					 } 
 				 	
 				 	 if( $spa_and_salon_ph ){ ?>
-				 	 	<div class="contact-info" style="float: right; margin: 0 20px; font-size: 18px">
+				 	 	<div class="contact-info" style="float: right; margin: 0 20px 0 0; font-size: 18px">
       						<p><a href="tel:<?php echo esc_attr( $spa_and_salon_ph ); ?>" class="tel-link">
       						<!--<span class="fa fa-phone"></span>-->
       						<?php echo esc_html( $spa_and_salon_ph ); ?></a></p>

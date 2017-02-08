@@ -42,28 +42,28 @@ class Spa_and_Salon_Social_Links extends WP_Widget {
         $facebook   = ! empty( $instance['facebook'] ) ? $instance['facebook'] : '' ;
         $instagram  = ! empty( $instance['instagram'] ) ? $instance['instagram'] : '' ;
         $twitter    = ! empty( $instance['twitter'] ) ? $instance['twitter'] : '' ;
-        $pinterest  = ! empty( $instance['pinterest'] ) ? $instance['pinterest'] : '' ;
-        $linkedin   = ! empty( $instance['linkedin'] ) ? $instance['linkedin'] : '' ;
+        $ok  = ! empty( $instance['ok'] ) ? $instance['ok'] : '' ;
+		$vk   = ! empty( $instance['vk'] ) ? $instance['vk'] : '' ;
         $youtube    = ! empty( $instance['youtube'] ) ? $instance['youtube'] : '' ;
         
-        if( $facebook || $instagram || $twitter || $pinterest || $linkedin || $youtube ){ 
+        if( $facebook || $instagram || $twitter || $ok || $vk || $youtube ){ 
         echo $args['before_widget'];
         if($title)
         echo $args['before_title'] . apply_filters( 'widget_title', $title, $instance, $this->id_base ) . $args['after_title'];
         ?>
             <ul class="social-networks">
+				<?php } if( $vk ){ ?>
+                <li class="vk"><a href="<?php echo esc_url( $vk ); ?>" title="<?php esc_attr_e( 'VK', 'spa-and-salon' ); ?>" class="fa fa-vk"></a></li>
 				<?php if( $facebook ){ ?>
-                <li><a href="<?php echo esc_url( $facebook ); ?>" title="<?php esc_attr_e( 'Facebook', 'spa-and-salon' ); ?>" class="fa fa-facebook"></a></li>
+                <li class="fb"><a href="<?php echo esc_url( $facebook ); ?>" title="<?php esc_attr_e( 'Facebook', 'spa-and-salon' ); ?>" class="fa fa-facebook"></a></li>
 				<?php } if( $instagram ){ ?>
-                <li><a href="<?php echo esc_url( $instagram ); ?>" title="<?php esc_attr_e( 'Instagram', 'spa-and-salon' ); ?>" class="fa fa-instagram"></a></li>
+                <li class="insta"><a href="<?php echo esc_url( $instagram ); ?>" title="<?php esc_attr_e( 'Instagram', 'spa-and-salon' ); ?>" class="fa fa-instagram"></a></li>
                 <?php } if( $twitter ){ ?>
-                <li><a href="<?php echo esc_url( $twitter ); ?>" title="<?php esc_attr_e( 'Twitter', 'spa-and-salon' ); ?>" class="fa fa-twitter"></a></li>
-				<?php } if( $pinterest ){ ?>
-                <li><a href="<?php echo esc_url( $pinterest ); ?>"  title="<?php esc_attr_e( 'Pinterest', 'spa-and-salon' ); ?>" class="fa fa-pinterest-p"></a></li>
-				<?php } if( $linkedin ){ ?>
-                <li><a href="<?php echo esc_url( $linkedin ); ?>" title="<?php esc_attr_e( 'Linkedin', 'spa-and-salon' ); ?>" class="fa fa-linkedin"></a></li>
+                <li class="tw"><a href="<?php echo esc_url( $twitter ); ?>" title="<?php esc_attr_e( 'Twitter', 'spa-and-salon' ); ?>" class="fa fa-twitter"></a></li>
+				<?php } if( $ok ){ ?>
+                <li class="ok"><a href="<?php echo esc_url( $ok ); ?>"  title="<?php esc_attr_e( 'Ok', 'spa-and-salon' ); ?>" class="fa fa-odnoklassniki-square"></a></li>
 				<?php } if( $youtube ){ ?>
-                <li><a href="<?php echo esc_url( $youtube ); ?>" title="<?php esc_attr_e( 'YouTube', 'spa-and-salon' ); ?>" class="fa fa-youtube"></a></li>
+                <li class="yt"><a href="<?php echo esc_url( $youtube ); ?>" title="<?php esc_attr_e( 'YouTube', 'spa-and-salon' ); ?>" class="fa fa-youtube"></a></li>
                 <?php } ?>
 			</ul>
         <?php
@@ -84,8 +84,9 @@ class Spa_and_Salon_Social_Links extends WP_Widget {
         $facebook   = ! empty( $instance['facebook'] ) ? $instance['facebook'] : '' ;
         $instagram  = ! empty( $instance['instagram'] ) ? $instance['instagram'] : '' ;
         $twitter    = ! empty( $instance['twitter'] ) ? $instance['twitter'] : '' ;
-        $pinterest  = ! empty( $instance['pinterest'] ) ? $instance['pinterest'] : '' ;
-        $linkedin   = ! empty( $instance['linkedin'] ) ? $instance['linkedin'] : '' ;
+        $ok  = ! empty( $instance['ok'] ) ? $instance['ok'] : '' ;
+//        $linkedin   = ! empty( $instance['linkedin'] ) ? $instance['linkedin'] : '' ;
+		$vk   = ! empty( $instance['vk'] ) ? $instance['vk'] : '' ;
         $youtube    = ! empty( $instance['youtube'] ) ? $instance['youtube'] : '' ;
         
         ?>
@@ -111,15 +112,18 @@ class Spa_and_Salon_Social_Links extends WP_Widget {
 		</p>
         
         <p>
-            <label for="<?php echo esc_attr( $this->get_field_id( 'pinterest' ) ); ?>"><?php esc_html_e( 'Pinterest', 'spa-and-salon' ); ?></label> 
-            <input class="widefat" id="<?php echo esc_attr( $this->get_field_id( 'pinterest' ) ); ?>" name="<?php echo esc_attr( $this->get_field_name( 'pinterest' ) ); ?>" type="text" value="<?php echo esc_attr( $pinterest ); ?>" />
+            <label for="<?php echo esc_attr( $this->get_field_id( 'ok' ) ); ?>"><?php esc_html_e( 'Ok', 'spa-and-salon' ); ?></label> 
+            <input class="widefat" id="<?php echo esc_attr( $this->get_field_id( 'ok' ) ); ?>" name="<?php echo esc_attr( $this->get_field_name( 'ok' ) ); ?>" type="text" value="<?php echo esc_attr( $ok ); ?>" />
 		</p>
         
+<!--        <p>
+            <label for="<?php //echo esc_attr( $this->get_field_id( 'linkedin' ) ); ?>"><?php //esc_html_e( 'LinkedIn', 'spa-and-salon' ); ?></label> 
+            <input class="widefat" id="<?php //echo esc_attr( $this->get_field_id( 'linkedin' ) ); ?>" name="<?php //echo esc_attr( $this->get_field_name( 'linkedin' ) ); ?>" type="text" value="<?php //echo esc_attr( $linkedin ); ?>" />
+		</p>-->
         <p>
-            <label for="<?php echo esc_attr( $this->get_field_id( 'linkedin' ) ); ?>"><?php esc_html_e( 'LinkedIn', 'spa-and-salon' ); ?></label> 
-            <input class="widefat" id="<?php echo esc_attr( $this->get_field_id( 'linkedin' ) ); ?>" name="<?php echo esc_attr( $this->get_field_name( 'linkedin' ) ); ?>" type="text" value="<?php echo esc_attr( $linkedin ); ?>" />
+            <label for="<?php echo esc_attr( $this->get_field_id( 'vk' ) ); ?>"><?php esc_html_e( 'VK', 'spa-and-salon' ); ?></label> 
+            <input class="widefat" id="<?php echo esc_attr( $this->get_field_id( 'vk' ) ); ?>" name="<?php echo esc_attr( $this->get_field_name( 'vk' ) ); ?>" type="text" value="<?php echo esc_attr('vk'); ?>" />
 		</p>
-        
         <p>
             <label for="<?php echo esc_attr( $this->get_field_id( 'youtube' ) ); ?>"><?php esc_html_e( 'YouTube', 'spa-and-salon' ); ?></label> 
             <input class="widefat" id="<?php echo esc_attr( $this->get_field_id( 'youtube' ) ); ?>" name="<?php echo esc_attr( $this->get_field_name( 'youtube' ) ); ?>" type="text" value="<?php echo esc_attr( $youtube ); ?>" />
@@ -146,7 +150,8 @@ class Spa_and_Salon_Social_Links extends WP_Widget {
         $instance['instagram']  = ! empty( $new_instance['instagram'] ) ? esc_url_raw( $new_instance['instagram'] ) : '';
         $instance['twitter']    = ! empty( $new_instance['twitter'] ) ? esc_url_raw( $new_instance['twitter'] ) : '';
         $instance['pinterest']  = ! empty( $new_instance['pinterest'] ) ? esc_url_raw( $new_instance['pinterest'] ) : '';
-        $instance['linkedin']   = ! empty( $new_instance['linkedin'] ) ? esc_url_raw( $new_instance['linkedin'] ) : '';
+//        $instance['linkedin']   = ! empty( $new_instance['linkedin'] ) ? esc_url_raw( $new_instance['linkedin'] ) : '';
+		$instance['vk']   = ! empty( $new_instance['vk'] ) ? esc_url_raw( $new_instance['vk'] ) : '';
         $instance['youtube']    = ! empty( $new_instance['youtube'] ) ? esc_url_raw( $new_instance['youtube'] ) : '';
 		
         return $instance;
