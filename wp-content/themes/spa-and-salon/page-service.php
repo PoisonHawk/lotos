@@ -17,13 +17,18 @@
 get_header(); ?>
 <style>
 
+	.entry-content{
+		text-align: center;
+	}
+
 	.page-list-ext-item{
 		position:relative;
 		max-width:200px;
 		max-height: 200px;
-		float: left;
+		/*float: left;*/
 		clear: none !important;
 		margin: 15px !important;
+		display: inline-block;
 
 	}
 
@@ -52,8 +57,8 @@ get_header(); ?>
 		font-family: 'ClutchSans' !important;
 		display: inline-block;
 		position: absolute;
-		top: 0;
-		left: 0;
+		top: 50%;
+		left: 50%;
 		z-index:100;
 		width:200px;
 		height: 200px;
@@ -64,6 +69,7 @@ get_header(); ?>
 		font-weight: bold;
 		background: rgba(255,255,255,0.5);
 		line-height: 1em;
+		margin:-100px 0 0 -100px;
 	}
 
 

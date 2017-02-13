@@ -262,7 +262,7 @@ function get_the_content( $more_link_text = null, $strip_teaser = false ) {
 
 	$post = get_post();
 
-	if ( null === $more_link_text ) {
+	if ( null === $more_link_text) {
 		$more_link_text = sprintf(
 			'<span aria-label="%1$s">%2$s</span>',
 			sprintf(

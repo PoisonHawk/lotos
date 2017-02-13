@@ -123,8 +123,30 @@ get_header('main');
 		color: #ccc;
 	}
 
+	.action-content{
+		text-align: center;
+	}
+
+	.action{
+		display:inline-block;
+		border: 4px solid #fff;
+		color: #fff;
+		width: 300px;
+		padding: 15px 20px 20px;
+		text-align: center;
+		cursor:pointer;
+		font-size: 24px;
+		margin: 20px;
+	}
+
+	.action h2{
+		font-size: 28px;
+		line-height: 0.8 !important;
+		padding-bottom: 30px;
+	}
 
 </style>
+
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 			<div class="site-branding">
@@ -147,19 +169,37 @@ get_header('main');
 					</a>
 				</h1>
 			</div> <!-- .site-branding -->
+			<div class="action-content">
 			<?php
-			while ( have_posts() ) : the_post();
+//			while ( have_posts() ) : the_post();
+//
+//				get_template_part( 'template-parts/content', 'page' );
+//
+//			endwhile; // End of the loop.
 
-				get_template_part( 'template-parts/content', 'page' );
 
-				// If comments are open or we have at least one comment, load up the comment template.
-				if ( comments_open() || get_comments_number() ) :
-					comments_template();
-				endif;
+			$args = array(
+				'posts_per_page' => 3,
+//			'orderby' => 'comment_count',
+				'cat'=>8,
+			);
 
-			endwhile; // End of the loop.
+			$query = new WP_Query($args); // указываем категорию 9 и выключаем разбиение на страницы (пагинацию)
+			if( $query->have_posts() ){
+				while( $query->have_posts() ){
+					$query->the_post();
+					?>
+					<div class="action" onclick="location.href='<?php the_permalink(); ?>'">
+						<h2 style="text-align: center"><?php the_title(); ?></h2>
+						<?php the_content(''); ?>
+					</div>
+					<?php
+				}
+				wp_reset_postdata(); // сбрасываем переменную $post
+			}
+			add_filter( 'the_content_more_link', '__return_empty_string' );
 			?>
-
+			</div>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 	</body>
