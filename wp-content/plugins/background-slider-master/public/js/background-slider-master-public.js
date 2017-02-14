@@ -158,9 +158,6 @@
 	function BackgroundLoadDefault($this,imageWidth,imageHeight,imgSrc){
 
 		$this.fadeOut("fast",function(){
-
-			console.log(imgSrc);
-
 			// $this.attr("src", "").attr("src", imgSrc); //change image source
 			$this.css("background-image", "").css("background-image", 'url('+imgSrc+')'); //change image source
 			// FullScreenBackground($this,imageWidth,imageHeight); //scale background image
@@ -328,7 +325,7 @@
 
 	//new image on load
 	function theNewImg_onload(){
-		console.log('1');
+
 		// $bgimg.data("newImageW",this.width).data("newImageH",this.height);
 		if( $animation == 'cross' ){
 			BackgroundLoadCF($bgimg,this.width,this.height,this.src);

@@ -202,6 +202,26 @@ get_header('main');
 			</div>
 		</main><!-- #main -->
 	</div><!-- #primary -->
+<script>
+
+	$(document).ready(function(){
+
+		console.log('reADY');
+
+		$(window).resize(function(){
+			console.log('resize');
+
+			$('.bsm-layout').css('height', '100%')
+		});
+
+		$(window).scroll(function(){
+			console.log('scroll');
+
+			$('.bsm-layout').css('height', '100%');
+		});
+	})
+
+</script>
 	</body>
 	</html>
 <?php

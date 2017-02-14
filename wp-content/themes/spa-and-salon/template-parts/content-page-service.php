@@ -56,10 +56,14 @@
 			}
 
 
+		$paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
+
 		$args = array(
-			'posts_per_page' => 2,
+			'posts_per_page' => 10,
 //			'orderby' => 'comment_count',
 			'cat'=>$catId,
+			'paged' => $paged,
+
 		);
 
 		$query = new WP_Query($args); // указываем категорию 9 и выключаем разбиение на страницы (пагинацию)
@@ -73,31 +77,20 @@
 				</div>
 		<?php
 			}
-			wp_reset_postdata(); // сбрасываем переменную $post
-		} 
-		else echo 'Записей нет.';
 		?>
+		<div class="page-links"><span style="float:left">
+			<?php
+			previous_posts_link('&larr;');?></span>
+			<span style="float:right"><?php
+			next_posts_link( '&rarr;;', $query->max_num_pages );
+			?></span>
+		</div>
+		<?php
+			wp_reset_postdata(); // сбрасываем переменную $post
 
-		<?php $args = array(
-			'base'         => '%_%',
-			'format'       => '?page=%#%',
-			'total'        => 1,
-			'current'      => 0,
-			'show_all'     => False,
-			'end_size'     => 1,
-			'mid_size'     => 2,
-			'mid_size'     => 2,
-			'prev_next'    => True,
-			'prev_text'    => __('« Previous'),
-			'next_text'    => __('Next »'),
-			'type'         => 'plain',
-			'add_args'     => False,
-			'add_fragment' => '',
-			'before_page_number' => '',
-			'after_page_number'  => ''
-		);
+		}
 
-		echo paginate_links( $args ); ?>
+		?>
 
 <?php
 		wp_link_pages( array(
