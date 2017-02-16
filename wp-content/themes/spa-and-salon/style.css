@@ -53,6 +53,11 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 	src: url('/wp-content/themes/spa-and-salon/fonts/ClutchSansFree/clutchsans-regular.otf'); /* Путь к файлу со шрифтом */
 }
 
+@font-face {
+	font-family: FashionFetish; /* Имя шрифта */
+	src: url('/wp-content/themes/spa-and-salon/fonts/fashion_fetish/Fashion-Fetish-Light.ttf'); /* Путь к файлу со шрифтом */
+}
+
 
 html {
 	font-family: 'ClutchSans', 'PT Serif', serif;
@@ -1735,7 +1740,7 @@ object {
 }
 
 .header-line{
-	border: 3px solid #000;
+	border: 2px solid #000;
 	position: absolute;
 	width: 100%;
 	top: 26px;

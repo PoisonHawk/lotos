@@ -41,7 +41,7 @@
       						<p><a href="tel:<?php echo esc_attr( $spa_and_salon_ph ); ?>" class="tel-link">
       						<!--<span class="fa fa-phone"></span>-->
       						<?php echo esc_html( $spa_and_salon_ph ); ?></a></p>
-							<p style='text-transform: uppercase;' >Рязань,ул.Нижне-трубежная,д.2</p>
+							<p style='text-transform: uppercase;' >Рязань, ул.Нижне-трубежная, д.2</p>
 							<div style="clear:both"></div>
 						</div>
      			<?php } ?>

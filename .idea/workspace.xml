@@ -2,12 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71e3bce5-04b2-44b3-b387-2a4ce3d42e77" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/background-slider-master/public/assets/nextImgBtn-black.png" afterPath="$PROJECT_DIR$/wp-content/plugins/background-slider-master/public/assets/nextImgBtn-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/background-slider-master/public/assets/prevImgBtn-black.png" afterPath="$PROJECT_DIR$/wp-content/plugins/background-slider-master/public/assets/prevImgBtn-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/spa-and-salon/images/leftlotos.png" afterPath="$PROJECT_DIR$/wp-content/themes/spa-and-salon/images/leftlotos.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/spa-and-salon/images/logo.png" afterPath="$PROJECT_DIR$/wp-content/themes/spa-and-salon/images/logo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/spa-and-salon/images/logo_footer.png" afterPath="$PROJECT_DIR$/wp-content/themes/spa-and-salon/images/logo_footer.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/spa-and-salon/images/rightlotos.png" afterPath="$PROJECT_DIR$/wp-content/themes/spa-and-salon/images/rightlotos.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/background-slider-master/public/css/background-slider-master-public.css" afterPath="$PROJECT_DIR$/wp-content/plugins/background-slider-master/public/css/background-slider-master-public.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/background-slider-master/public/js/background-slider-master-public.js" afterPath="$PROJECT_DIR$/wp-content/plugins/background-slider-master/public/js/background-slider-master-public.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/spa-and-salon/header-main.php" afterPath="$PROJECT_DIR$/wp-content/themes/spa-and-salon/header-main.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/spa-and-salon/header.php" afterPath="$PROJECT_DIR$/wp-content/themes/spa-and-salon/header.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/spa-and-salon/page-main.php" afterPath="$PROJECT_DIR$/wp-content/themes/spa-and-salon/page-main.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/spa-and-salon/template-parts/content-page-service.php" afterPath="$PROJECT_DIR$/wp-content/themes/spa-and-salon/template-parts/content-page-service.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/spa-and-salon/style.css" afterPath="$PROJECT_DIR$/wp-content/themes/spa-and-salon/style.css" />
     </list>
     <ignored path="lotos.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,31 +34,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/plugins/background-slider-master/public/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="background-slider-master-public.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/plugins/background-slider-master/public/css/background-slider-master-public.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
+            <state relative-caret-position="833">
               <caret line="49" column="12" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="class-background-slider-master-public.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="class-background-slider-master-public.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/plugins/background-slider-master/public/class-background-slider-master-public.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
-              <caret line="136" column="38" selection-start-line="136" selection-start-column="38" selection-end-line="136" selection-end-column="38" />
+            <state relative-caret-position="275">
+              <caret line="165" column="11" selection-start-line="165" selection-start-column="11" selection-end-line="165" selection-end-column="11" />
               <folding>
                 <marker date="1487108660084" expanded="true" signature="5134:5368" ph="..." />
                 <marker date="1487108660084" expanded="true" signature="5274:5343" ph="..." />
@@ -72,8 +67,28 @@
       <file leaf-file-name="header-main.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/spa-and-salon/header-main.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-391">
-              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state relative-caret-position="663">
+              <caret line="47" column="95" selection-start-line="47" selection-start-column="95" selection-end-line="47" selection-end-column="95" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/spa-and-salon/page.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/spa-and-salon/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="595">
+              <caret line="43" column="95" selection-start-line="43" selection-start-column="95" selection-end-line="43" selection-end-column="95" />
               <folding />
             </state>
           </provider>
@@ -82,77 +97,52 @@
       <file leaf-file-name="content-page.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/spa-and-salon/template-parts/content-page.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+            <state relative-caret-position="153">
+              <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="49" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="page-main.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/spa-and-salon/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="935">
+              <caret line="55" column="12" selection-start-line="55" selection-start-column="12" selection-end-line="55" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="post-template.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-includes/post-template.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4284">
+              <caret line="259" column="9" selection-start-line="259" selection-start-column="9" selection-end-line="259" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page-main.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/spa-and-salon/page-main.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="762">
-              <caret line="219" column="48" selection-start-line="219" selection-start-column="48" selection-end-line="219" selection-end-column="48" />
+            <state relative-caret-position="241">
+              <caret line="102" column="17" selection-start-line="102" selection-start-column="17" selection-end-line="102" selection-end-column="17" />
               <folding>
-                <element signature="e#3234#3275#0#PHP" expanded="true" />
-                <marker date="1487107971729" expanded="true" signature="576:643" ph="..." />
-                <marker date="1487107971729" expanded="true" signature="3239:3377" ph="..." />
+                <element signature="e#3325#3366#0#PHP" expanded="true" />
+                <marker date="1487196926315" expanded="true" signature="576:643" ph="..." />
+                <marker date="1487196926315" expanded="true" signature="3330:3468" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="content-main.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/spa-and-salon/template-parts/content-main.php">
+      <file leaf-file-name="background-slider-master.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/background-slider-master/background-slider-master.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="general-template.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-includes/general-template.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="60" column="9" selection-start-line="60" selection-start-column="9" selection-end-line="60" selection-end-column="9" />
-              <folding>
-                <marker date="1486211082080" expanded="true" signature="28836:28849" ph="..." />
-                <marker date="1486211082080" expanded="true" signature="55477:55659" ph="SELECT YEAR(... " />
-                <marker date="1486211082080" expanded="true" signature="56551:56686" ph="SELECT YEAR(... " />
-                <marker date="1486211082080" expanded="true" signature="57451:57695" ph="SELECT YEAR(... " />
-                <marker date="1486211082080" expanded="true" signature="58666:58904" ph="SELECT DISTI... " />
-                <marker date="1486211082080" expanded="true" signature="60308:60366" ph="SELECT * FRO... ${$wpdb-&gt;posts}" />
-                <marker date="1486211082080" expanded="true" signature="62669:62764" ph="SELECT 1 as ${$wpdb-&gt;posts}" />
-                <marker date="1486211082080" expanded="true" signature="64002:64216" ph="SELECT MONTH... " />
-                <marker date="1486211082080" expanded="true" signature="64245:64476" ph="SELECT MONTH... " />
-                <marker date="1486211082080" expanded="true" signature="64652:64793" ph="..." />
-                <marker date="1486211082080" expanded="true" signature="64787:64793" ph="..." />
-                <marker date="1486211082080" expanded="true" signature="65238:65244" ph="..." />
-                <marker date="1486211082080" expanded="true" signature="66047:66053" ph="..." />
-                <marker date="1486211082080" expanded="true" signature="66146:66381" ph="SELECT DISTI... ${$wpdb-&gt;posts}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/spa-and-salon/footer.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="677">
-              <caret line="106" column="0" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="background-slider-master-public.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/plugins/background-slider-master/public/js/background-slider-master-public.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="159" column="9" selection-start-line="159" selection-start-column="9" selection-end-line="159" selection-end-column="9" />
+            <state relative-caret-position="578">
+              <caret line="51" column="51" selection-start-line="51" selection-start-column="51" selection-end-line="51" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -172,22 +162,22 @@
         <option value="$PROJECT_DIR$/wp-content/plugins/slider/front-end/reslider_front_end_view.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/spa-and-salon/inc/extra.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/spa-and-salon/template-parts/content.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/spa-and-salon/header.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/spa-and-salon/page-about.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/spa-and-salon/page.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/spa-and-salon/template-parts/content-page.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/spa-and-salon/footer.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/spa-and-salon/single.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/spa-and-salon/template-parts/content-about.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/spa-and-salon/style.css" />
         <option value="$PROJECT_DIR$/wp-includes/post-template.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/spa-and-salon/page-service.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/spa-and-salon/template-parts/content-page-service.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/spa-and-salon/header-main.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/spa-and-salon/page-main.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/background-slider-master/public/js/background-slider-master-public.js" />
         <option value="$PROJECT_DIR$/wp-content/plugins/background-slider-master/public/class-background-slider-master-public.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/background-slider-master/public/css/background-slider-master-public.css" />
+        <option value="$PROJECT_DIR$/wp-content/themes/spa-and-salon/header-main.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/spa-and-salon/header.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/spa-and-salon/style.css" />
+        <option value="$PROJECT_DIR$/wp-content/themes/spa-and-salon/page-main.php" />
       </list>
     </option>
   </component>
@@ -202,10 +192,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="8" />
-    <option name="y" value="13" />
+    <option name="x" value="-30" />
+    <option name="y" value="22" />
     <option name="width" value="1272" />
-    <option name="height" value="942" />
+    <option name="height" value="945" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -233,6 +223,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -279,72 +270,6 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lotos" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lotos" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spa-and-salon" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lotos" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lotos" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spa-and-salon" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="template-parts" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lotos" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lotos" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="plugins" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -394,72 +319,11 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lotos" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lotos" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plugins" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="background-slider-master" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lotos" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lotos" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plugins" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="background-slider-master" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -529,17 +393,20 @@
       <workItem from="1486503510830" duration="5006000" />
       <workItem from="1487006210582" duration="5336000" />
       <workItem from="1487103961008" duration="4882000" />
+      <workItem from="1487190711625" duration="2755000" />
+      <workItem from="1487195438003" duration="2081000" />
+      <workItem from="1487278180053" duration="1190000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67012000" />
+    <option name="totallyTimeSpent" value="73038000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="8" y="13" width="1272" height="942" extended-state="0" />
-    <editor active="false" />
+    <frame x="-30" y="22" width="1272" height="945" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27388534" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27388534" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -578,7 +445,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1292">
           <caret line="84" column="34" selection-start-line="84" selection-start-column="34" selection-end-line="84" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -601,7 +467,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="884">
           <caret line="60" column="40" selection-start-line="60" selection-start-column="28" selection-end-line="60" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -664,7 +529,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1666">
           <caret line="240" column="16" selection-start-line="240" selection-start-column="16" selection-end-line="240" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -681,13 +545,6 @@
         <state relative-caret-position="-580">
           <caret line="854" column="51" selection-start-line="854" selection-start-column="51" selection-end-line="854" selection-end-column="51" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/spa-and-salon/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="46" column="100" selection-start-line="46" selection-start-column="100" selection-end-line="46" selection-end-column="100" />
         </state>
       </provider>
     </entry>
@@ -709,7 +566,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="38" column="16" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -717,13 +573,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/spa-and-salon/page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -762,58 +611,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/spa-and-salon/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42245">
-          <caret line="2485" column="4" selection-start-line="2485" selection-start-column="4" selection-end-line="2485" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-includes/post-template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3774">
-          <caret line="229" column="9" selection-start-line="229" selection-start-column="9" selection-end-line="229" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-includes/post.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="8653">
           <caret line="514" column="9" selection-start-line="514" selection-start-column="9" selection-end-line="514" selection-end-column="9" />
-          <folding>
-            <marker date="1485290103046" expanded="true" signature="57509:57525" ph="Insert into post... " />
-            <marker date="1485290103046" expanded="true" signature="57535:57551" ph="Insert into page... " />
-            <marker date="1485290103046" expanded="true" signature="83259:83343" ph="SELECT post_... $" />
-            <marker date="1485290103046" expanded="true" signature="85279:85430" ph="SELECT post_... ${$wpdb-&gt;posts}" />
-            <marker date="1485290103046" expanded="true" signature="85600:85693" ph="SELECT COUNT... ${$wpdb-&gt;posts}" />
-            <marker date="1485290103046" expanded="true" signature="91421:91461" ph="SELECT * FRO... ${$wpdb-&gt;posts}" />
-            <marker date="1485290103046" expanded="true" signature="92868:92936" ph="SELECT * FRO... ${$wpdb-&gt;posts}" />
-            <marker date="1485290103046" expanded="true" signature="93261:93338" ph="SELECT ID FR... ${$wpdb-&gt;posts}" />
-            <marker date="1485290103046" expanded="true" signature="93790:93855" ph="SELECT comme... ${$wpdb-&gt;comments}" />
-            <marker date="1485290103046" expanded="true" signature="94048:94102" ph="SELECT meta_... ${$wpdb-&gt;postmeta}" />
-            <marker date="1485290103046" expanded="true" signature="98690:98773" ph="SELECT comme... ${$wpdb-&gt;comments}" />
-            <marker date="1485290103046" expanded="true" signature="100695:100778" ph="UPDATE ${$wp... " />
-            <marker date="1485290103046" expanded="true" signature="120641:120682" ph="SELECT ID FR... ${$wpdb-&gt;posts}" />
-            <marker date="1485290103046" expanded="true" signature="132181:132257" ph="SELECT post_... ${$wpdb-&gt;posts}" />
-            <marker date="1485290103046" expanded="true" signature="133330:133465" ph="SELECT post_... ${$wpdb-&gt;posts}" />
-            <marker date="1485290103046" expanded="true" signature="134583:134678" ph="SELECT post_... ${$wpdb-&gt;posts}" />
-            <marker date="1485290103046" expanded="true" signature="148833:148885" ph="SELECT ID FR... ${$wpdb-&gt;posts}" />
-            <marker date="1485290103046" expanded="true" signature="151469:151609" ph="SELECT ID, p... ${$wpdb-&gt;posts}" />
-            <marker date="1485290103046" expanded="true" signature="153426:153524" ph="SELECT ID FR... ${$wpdb-&gt;posts}" />
-            <marker date="1485290103046" expanded="true" signature="153585:153662" ph="SELECT ID FR... ${$wpdb-&gt;posts}" />
-            <marker date="1485290103046" expanded="true" signature="165719:165777" ph="SELECT * FRO... ${$wpdb-&gt;posts}" />
-            <marker date="1485290103046" expanded="true" signature="170187:170227" ph="SELECT * FRO... ${$wpdb-&gt;posts}" />
-            <marker date="1485290103046" expanded="true" signature="171345:171410" ph="SELECT comme... ${$wpdb-&gt;comments}" />
-            <marker date="1485290103046" expanded="true" signature="171604:171658" ph="SELECT meta_... ${$wpdb-&gt;postmeta}" />
-            <marker date="1485290103046" expanded="true" signature="172229:172348" ph="SELECT meta_... ${$wpdb-&gt;postmeta}" />
-            <marker date="1485290103046" expanded="true" signature="194507:194652" ph="SELECT post_... " />
-            <marker date="1485290103046" expanded="true" signature="194708:194849" ph="SELECT post_... " />
-            <marker date="1485290103046" expanded="true" signature="194945:195139" ph="SELECT DATE_... " />
-            <marker date="1485290103046" expanded="true" signature="205863:205973" ph="SELECT ID FR... ${$wpdb-&gt;posts}" />
-            <marker date="1485290103046" expanded="true" signature="208494:208550" ph="SELECT ${$wp... ${$wpdb-&gt;posts}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -821,7 +622,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="745">
           <caret line="68" column="26" selection-start-line="68" selection-start-column="26" selection-end-line="68" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -850,7 +650,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="638">
           <caret line="1150" column="9" selection-start-line="1150" selection-start-column="9" selection-end-line="1150" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -858,13 +657,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="421">
           <caret line="3484" column="37" selection-start-line="3484" selection-start-column="28" selection-end-line="3484" selection-end-column="37" />
-          <folding>
-            <marker date="1485290102549" expanded="true" signature="17236:17340" ph="SELECT meta_... ${$wpdb-&gt;postmeta}" />
-            <marker date="1485290102549" expanded="true" signature="18399:18503" ph="SELECT post_... ${$wpdb-&gt;postmeta}" />
-            <marker date="1485290102549" expanded="true" signature="39016:39085" ph="SELECT optio... ${$wpdb-&gt;options}" />
-            <marker date="1485290102549" expanded="true" signature="147151:147247" ph="SELECT post_... ${$wpdb-&gt;postmeta}" />
-            <marker date="1485290102549" expanded="true" signature="147710:147812" ph="SELECT comme... ${$wpdb-&gt;commentmeta}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -872,18 +664,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="61" column="34" selection-start-line="61" selection-start-column="34" selection-end-line="61" selection-end-column="34" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#div#2;n#div#0;n#article#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#div#2;n#div#0;n#article#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/background-slider-master/background-slider-master.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-207">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -891,21 +671,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/spa-and-salon/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="677">
+        <state relative-caret-position="1666">
           <caret line="106" column="0" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-includes/general-template.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
+        <state relative-caret-position="935">
           <caret line="60" column="9" selection-start-line="60" selection-start-column="9" selection-end-line="60" selection-end-column="9" />
           <folding>
             <marker date="1486211082080" expanded="true" signature="28836:28849" ph="..." />
@@ -930,22 +708,97 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/background-slider-master/public/js/background-slider-master-public.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2703">
+          <caret line="159" column="9" selection-start-line="159" selection-start-column="9" selection-end-line="159" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/background-slider-master/public/css/background-slider-master-public.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="49" column="12" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/post-template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4284">
+          <caret line="259" column="9" selection-start-line="259" selection-start-column="9" selection-end-line="259" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/spa-and-salon/page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/spa-and-salon/template-parts/content-page.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+        <state relative-caret-position="153">
+          <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/spa-and-salon/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="43" column="95" selection-start-line="43" selection-start-column="95" selection-end-line="43" selection-end-column="95" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/spa-and-salon/header-main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="47" column="95" selection-start-line="47" selection-start-column="95" selection-end-line="47" selection-end-column="95" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/spa-and-salon/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="935">
+          <caret line="55" column="12" selection-start-line="55" selection-start-column="12" selection-end-line="55" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/spa-and-salon/page-main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="102" column="17" selection-start-line="102" selection-start-column="17" selection-end-line="102" selection-end-column="17" />
+          <folding>
+            <element signature="e#3325#3366#0#PHP" expanded="true" />
+            <marker date="1487196926315" expanded="true" signature="576:643" ph="..." />
+            <marker date="1487196926315" expanded="true" signature="3330:3468" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/background-slider-master/background-slider-master.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="51" column="51" selection-start-line="51" selection-start-column="51" selection-end-line="51" selection-end-column="51" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/background-slider-master/public/class-background-slider-master-public.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="136" column="38" selection-start-line="136" selection-start-column="38" selection-end-line="136" selection-end-column="38" />
+        <state relative-caret-position="275">
+          <caret line="165" column="11" selection-start-line="165" selection-start-column="11" selection-end-line="165" selection-end-column="11" />
           <folding>
             <marker date="1487108660084" expanded="true" signature="5134:5368" ph="..." />
             <marker date="1487108660084" expanded="true" signature="5274:5343" ph="..." />
@@ -956,42 +809,6 @@
             <marker date="1487108660084" expanded="true" signature="6041:6074" ph="..." />
             <marker date="1487108660084" expanded="true" signature="6345:6530" ph="..." />
             <marker date="1487108660084" expanded="true" signature="6358:6517" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/background-slider-master/public/js/background-slider-master-public.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="159" column="9" selection-start-line="159" selection-start-column="9" selection-end-line="159" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/background-slider-master/public/css/background-slider-master-public.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="49" column="12" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/spa-and-salon/header-main.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-391">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/spa-and-salon/page-main.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="762">
-          <caret line="219" column="48" selection-start-line="219" selection-start-column="48" selection-end-line="219" selection-end-column="48" />
-          <folding>
-            <element signature="e#3234#3275#0#PHP" expanded="true" />
-            <marker date="1487107971729" expanded="true" signature="576:643" ph="..." />
-            <marker date="1487107971729" expanded="true" signature="3239:3377" ph="..." />
           </folding>
         </state>
       </provider>

@@ -100,7 +100,7 @@ get_header('main');
 	}
 
 	.site-branding{
-		margin: 200px auto;
+		margin: 100px auto;
 		font-size:50px;
 		position: inherit;;
 		
@@ -159,11 +159,11 @@ get_header('main');
 				<?php
 				$description = get_bloginfo( 'description', 'display' );
 				if ( $description || is_customize_preview() ) : ?>
-					<p class="site-description" style="color: #fff; font-size: 36px; text-transform:uppercase;margin-bottom:20px"><?php echo $description; /* WPCS: xss ok. */ ?></p>
+					<p class="site-description" style="font-family: 'FashionFetish'; color: #fff; font-size: 48px; font-weight: bold; text-transform:uppercase;margin:50px"><?php echo $description; /* WPCS: xss ok. */ ?></p>
 
 					<?php
 				endif; ?>
-				<h1 class="site-title"  style="color: #fff !important; font-size: 48px; text-transform:uppercase">
+				<h1 class="site-title"  style="font-family: 'FashionFetish'; font-weight: bold; color: #fff !important; font-size: 72px; text-transform:uppercase">
 					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home" style="color:#fff">
 						<?php bloginfo( 'name' ); ?>
 					</a>

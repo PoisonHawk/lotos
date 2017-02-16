@@ -21,8 +21,11 @@
 </head>
 
 <body <?php body_class(); ?> >
-<!--<div class="layout-main" style="background: rgba(0,0,0,0.7); width: 100%; height: 100%; position: fixed; z-index: 100"></div>-->
-<?php //echo do_shortcode("[R-slider id='2']"); ?>
+<style>
+	header{
+		border-top:7px solid #C83435;
+	}
+</style>
 <div id="page" class="site">
 	<header id="masthead" class="site-header <?php if( !is_page_template( 'template-home.php' ) ) { echo 'header-inner'; }  ?>" role="banner">
 		<div class="container">
@@ -42,7 +45,7 @@
       						<p><a href="tel:<?php echo esc_attr( $spa_and_salon_ph ); ?>" class="tel-link">
       						<!--<span class="fa fa-phone"></span>-->
       						<?php echo esc_html( $spa_and_salon_ph ); ?></a></p>
-							<p style='text-transform: uppercase; '>Рязань,ул.Нижне-трубежная,д.2</p>
+							<p style='text-transform: uppercase; '>Рязань, ул.Нижне-трубежная, д.2</p>
 						</div>
      			<?php } ?>
 					
